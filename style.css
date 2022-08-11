@@ -90,3 +90,70 @@ html {
     font-weight: 400;
     font-size: larger;
 }
+
+/*CSS JOHN*/
+
+.video-section{
+    overflow-y: auto;
+    max-height: 499px;
+    display: flex;
+    width: 100%; 
+    height: 499px;
+    font-weight: 500; 
+    padding: 0 3rem 1rem 3rem;
+    background-image: url('img/Particulas.png');
+    background-repeat: no-repeat;
+}
+#video-div{
+    width: 40%;
+}
+.title-video-section{
+    padding: 3rem 0;
+    color: #fca311;
+}
+.text-video-section{
+    font-weight: 400;
+    font-size: larger;
+    color: #000;
+}
+.video-video-section{
+    padding: 9rem 0 0 3rem;
+}
+
+.micro-section{
+    width: 100%;
+    height: 200px;
+    background-color: #14213D;
+    padding: 0 0 0 3rem;
+}
+.title-micro-section{
+    color: #fff;
+    font-size: larger;
+    text-align: center;
+    padding: 1rem 0;
+}
+.micro-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.section-contatos{
+    width: 100%;
+    height: 499px;
+    background-color: #000;
+}
+#logo-section-contatos{
+    padding: 3rem 0 0 45%;
+}
+#img-section-contatos{
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#img-section-contatos div:hover{
+    scale: 1.2;
+}
