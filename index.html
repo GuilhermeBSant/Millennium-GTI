@@ -5,36 +5,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Milenium</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
 </head>
-  <body>
+  <body style="background-color: #D9D9D9;">
 
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">MILENIUM</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <!-- Para organizar o código para vocês coloquem tudo(menos o footer) dentro da tag main 
+        e coloquem dentro de sections, alem disso coloquem o nome de vocês acima da section
+        que estão desenvolvendo e adicionem um ✅ quando finalizarem o projeto. Evitem
+        alterar o código do amiguinho sem conversar com ele antes, criei diversas tags e padrões
+        que vão auxiliar vocês no desenvolvimento.
+        🚀 Link da paleta de cores: https://coolors.co/palettes/popular/space
+        👽 Link da base criada no figma https://www.figma.com/file/12biLsdSFDT61uXofPTkiR/Untitled?node-id=1%3A2 -->
+    
+    <!-- Guilherme ✅ -->
+    <header style="padding: 0 3rem; background-color:#fff;">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <img src="img/logo.png" alt="" style="width: 130px; height: 56px;">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portfólio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about-us">Sobre nós</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <main>
+        <!-- Guilherme ✅ -->
+        <section id="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" style="height:499px ;">
+                  <div class="carousel-item active"data-bs-interval="10000">
+                    <img src="img/re6.png" width="auto"  height="auto" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="10000">
+                    <img src="img/gow.png" width="auto"  height="auto" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="10000">
+                    <img src="img/tlou.png" width="auto"  height="auto" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        
+        <!-- Guilherme ✅ -->
+        <section class="mini-section" style="background-image: url('img/shapes.png'); background-repeat: no-repeat;">
+            <div class="header-text">
+                <h3 style="font-weight: 700; text-shadow: 0px 0px 5px #fad637 ;">NOSSOS PRÊMIOS</h3>
+            </div>
+            <div class="content">
+                <div>
+                    <img src="img/trophy.png" width="200px" height="200px" alt="">
+                    <p class="category">The Games Award 2021</p>
+                </div>
+                <div>
+                    <img src="img/trophy.png" width="200px" height="200px" alt="">
+                    <p class="category">The Games Award 2021</p>
+                </div>
+                <div>
+                    <img src="img/trophy.png" width="200px" height="200px" alt="">
+                    <p class="category">The Games Award 2021</p>
+                </div>
+                <div>
+                    <img src="img/trophy.png" width="200px" height="200px" alt="">
+                    <p class="category">The Games Award 2021</p>
+                </div>
+            </div>
+        </section>
 
-      <div class="bg-dark">
-        <h1>calixto</h1>
-      </div>
+        <!-- Guilherme ✅ -->
+        <section class="text-section">
+            <div id="about-us">
+            <h2 class="title-text-section">
+                SOBRE NÓS
+            </h2>
+            <p class="text-text-section">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos laborum dicta iure sed inventore animi, voluptate assumenda. Voluptate, iure consequatur? Eum earum consequuntur tempora placeat architecto dolorum laborum velit excepturi?
+            </p>
+            </div>
+            <img src="img/human.png" style="max-height: 499px; height:auto;" width="auto" id="image-text-section" alt="">
 
+        </section>
+    </main>
+      
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
