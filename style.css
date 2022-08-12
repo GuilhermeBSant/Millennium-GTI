@@ -157,3 +157,27 @@ html {
 #img-section-contatos div:hover{
     scale: 1.2;
 }
+#final-section-contatos p{
+    color: white;
+}
+.footer-button{
+    display: inline-block;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 1rem;
+    margin: 3rem 0 0 25%;
+    border-radius: 5px;
+}
+.footer-button:hover{
+    transition: .5s;
+    scale: 1.15;
+}
+#final-section-contatos p{
+    display: inline-block;
+    width: 30%;
+    margin-left: 10rem;
+    padding: 1rem 0;
+}
+#final-section-contatos a{
+    color: #fca311;
+}
