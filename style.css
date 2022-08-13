@@ -80,6 +80,9 @@ html {
    #about-us{
     width: 100%;
    }
+   .video-video-section{
+    display: none;
+   }
 }
 
 .title-text-section{
@@ -138,46 +141,53 @@ html {
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
-.section-contatos{
-    width: 100%;
-    height: 499px;
-    background-color: #000;
-}
-#logo-section-contatos{
-    padding: 3rem 0 0 45%;
-}
-#img-section-contatos{
-    padding: 3rem 0;
+#footer-redes{
+    padding: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-#img-section-contatos div:hover{
+#footer-redes-imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer-img{
+    margin-left: 6rem;
+}
+.footer-img:hover{
     scale: 1.2;
+    transition: 0.5s;
 }
-#final-section-contatos p{
-    color: white;
+.footer-img-and-text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-.footer-button{
-    display: inline-block;
-    font-weight: bold;
-    background-color: #fff;
-    padding: 1rem;
-    margin: 3rem 0 0 25%;
-    border-radius: 5px;
+.footer-img-and-text p{
+    margin-left: 0.5rem;
 }
-.footer-button:hover{
-    transition: .5s;
-    scale: 1.15;
+#footer-form-button{
+    background-color: #fca311;
 }
-#final-section-contatos p{
-    display: inline-block;
-    width: 30%;
-    margin-left: 10rem;
-    padding: 1rem 0;
+#footer-form-button:hover{
+    background-color: #cf850c;
 }
-#final-section-contatos a{
-    color: #fca311;
+#footer-links ul{
+    list-style: none;
+}
+.footer-links-link{
+    color: #000;
+}
+#footer-middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#copyright{
+    display: flex;
+    justify-content: center;
 }
