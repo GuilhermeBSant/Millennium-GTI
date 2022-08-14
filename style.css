@@ -191,3 +191,73 @@ html {
     display: flex;
     justify-content: center;
 }
+
+.calixto{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.calixto img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.head-notice{
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    padding: 0rem 3rem 0rem;
+}
+
+.noticia{
+    width: 350px;
+    height: 350px;
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
+.manchete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.calixto h5{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #14213D;
+    color: f1f1f1;
+}
+
+.noticia6{
+    display: none;
+    width: 310px;
+    height: 310px;
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
+.head-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.botao{
+    width: 150px;
+    height: 50px;
+    border-radius: 1rem;
+    background-color: #14213D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
