@@ -13,6 +13,46 @@ html {
     color: #000;
 }
 
+.slider-section{
+    overflow-y: auto;
+    max-height: 499px;
+    display: flex;
+    background-image: url('https://img.freepik.com/free-vector/space-game-background-neon-night-alien-landscape_107791-1624.jpg?w=826&t=st=1660687227~exp=1660687827~hmac=97b7fd7ff3d666a26346d7bc1c942d773a1c44b6e29ece8252cdade8b2051ac1');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%; 
+    height: 499px;
+    color: #fff;
+    font-weight: 500; 
+    padding: 0 3rem 1rem 3rem;
+}
+
+#content-slider{
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 70%;
+}
+
+#content-slider button{
+    width: 50%;
+    height: auto;
+    border-radius: 1rem;
+    border: none;
+}
+
+#content-slider button:hover{
+    width: 50%;
+    height: auto;
+    border-radius: 1rem;
+    background-color: #fca311;
+    color: #fff;
+    border: none;
+}
+
+
 #carousel{
     background-color: #fca311;
 }
@@ -80,6 +120,7 @@ html {
    #about-us{
     width: 100%;
    }
+   
    .video-video-section{
     display: none;
    }
